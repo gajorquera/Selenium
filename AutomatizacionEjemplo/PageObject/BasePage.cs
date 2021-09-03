@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace AutomatizacionEjemplo.PageObject
 {
     /*
-     * Clase base para todos los page object
+     * Clase base para todos los Page Objet de la solucion.
+     
      */
     public abstract class BasePage
     {

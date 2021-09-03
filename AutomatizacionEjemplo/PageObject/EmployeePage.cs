@@ -25,7 +25,7 @@ namespace AutomatizacionEjemplo.PageObject
         {
             Driver = driver;
 
-            if (driver.Title.Equals("AUT Form  TestFaceClub"))
+            if (!driver.Title.Equals("AUT Form - TestFaceClub"))
                 throw new Exception("Esta no es la pagina de Empleado");
         }
 
